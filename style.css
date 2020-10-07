@@ -1,11 +1,63 @@
+/* Overall Rules */
+
+#NavBar {
+  background-color: crimson;
+  color: black;
+  padding: 12px;
+  font-size: 2rem;
+  font-weight: 600;
+  font-size: 2rem;
+  text-decoration: none;
+}
+
+.NavBar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#NavBar:hover {
+  background-color: black;
+  color: crimson;
+}
+
 body {
   background-color: silver;
   color: black;
+  font-size: 14px;
   font-family: 'Poppins', sans-serif, arial;
 }
 
-h1 {
+#SectionHeaderName {
+  font-weight: bolder;
+}
+/* Overall Rules */
+
+
+/* Home Page */
+#HomePageHeader {
+  text-align: center;
+  background-color: black;
   color: crimson;
   font-family: fantasy;
-  font-size: 3rem
+  font-size: 2rem;
+}
+
+#BannerImage {
+  padding-top: 12px;
+  display:block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#HomePageFooter {
+  text-align: center;
+  font-style: italic;
+}
+/* Home Page */
+
+
+
+#DummyText {
+  line-height: 2
 }

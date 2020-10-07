@@ -9,45 +9,61 @@
 <body>
 
 <!-- Notes
-Add a search bar function perhaps.
-Perhaps add a sort option for the different catagories. Newest, oldest.
+Remove the strong and emphasis tags in the Aseprite section after submitting today, 06/10.
+About section: remove lorem text
+style.css: remove section for about section lorem text
+Anything that needs what is currently the 'body' style in the css file, give a tag to fix the nav bar. Or seperate the rules to fix it.
+Add the google fonts link tag to all the other html files to see if that fixes it
+
+Give everything an ID tag!
+Add a search bar function if it isn't too complex.
+Perhaps add a sort option for the different catagories. Newest, oldest. If it isn't too complex.
 When done with website, turn this into a little message to anyone who inspects the code!
 -->
 
-  <header>
+<!-- Header -->
+  <header id="HomePageHeader">
     <h1> Needpainkiller Art </h1>
   </header>
-    <img src="Overlook.png" alt="A man and his dog looking over a valley."
-    width="576">
-
+<!-- Header -->
 
 <!-- Navigation pane -->
-  <section>
+    <nav class="NavBar">
+      <a href="index.html" id="NavBar"> Home </a>
 
-    <h2><a href="index.html">Home</a></h2>
+      <a href="Inktober page/2020 Inktober images.html" id="NavBar"> Inktober </a>
 
-    <h2><a href="Inktober page/2020 Inktober images.html"> Inktober </a></h2>
+      <a href="images page/images.html"id="NavBar"> Images </a>
 
-    <h2><a href="images page/images.html"> Images </a></h2>
+      <a href="gifs page/gifs.html" id="NavBar"> Gifs </a>
 
-    <h2><a href="gifs page/gifs.html"> Gifs </a></h2>
-
-    <h2><a href="About/about page.html"> About </a></h2>
+      <a href="About/about page.html" id="NavBar"> About </a>
+    </nav>
 <!-- Navigation pane -->
 
+<!-- Banner Image -->
+<img id="BannerImage" src="Overlook.png" alt="A man and his dog looking over a valley."
+width="576">
+<!-- Banner Image -->
 
-  </section>
 
     <h2> A website of images and gifs I have made. </h2>
-    <h3> All images are made using Aseprite. </h3>
+
+
+
+<!-- Aseprite links-->
+<h3> All images are made using <strong><em>Aseprite</em></strong>. </h3>
 
   <section>
     <a href="https://www.aseprite.org/" target="_blank"> <img src="https://tse2.mm.bing.net/th?id=OIP.cbECLRfte4XT9oz-Tz3T8QHaHa&pid=Api&P=0&w=80&h=80"></a>
 
     <a href="https://store.steampowered.com/app/431730/Aseprite/" target="_blank"> <img src="https://tse2.mm.bing.net/th?id=OIP.32v2dBumkw6NXQeQ8pUMzwHaHa&pid=Api&P=0&w=2=80&h=80"></a>
   </section>
+  <!-- Aseprite links-->
 
-  <footer> A website made by JK </footer>
+<!-- Footer -->
+  <footer id="HomePageFooter"> A website made by JK <br> Copyright &copy; 2020 </footer>
+  <!-- Footer -->
 
 </body>
 </html>
