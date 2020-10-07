@@ -35,9 +35,11 @@ body {
 /* Overall Rules */
 
 
+/* All Image Banners */
 #SectionHeaderName {
   font-weight: bolder;
 }
+/* All Image Banners */
 
 
 /* Home Page */
@@ -87,5 +89,6 @@ body {
 .ContentText {
   border: 5px solid black;
   padding: 10px;
+
 }
 /* Images */
