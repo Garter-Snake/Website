@@ -1,12 +1,14 @@
-/* Overall Rules */
-
+/* Navigation Bar */
 #NavBar {
+  border: 5px solid black;
+  margin-left: 5px;
+  margin-right: 5px;
+  line-height: 1;
   background-color: crimson;
   color: black;
   padding: 12px;
   font-size: 2rem;
   font-weight: 600;
-  font-size: 2rem;
   text-decoration: none;
 }
 
@@ -20,18 +22,22 @@
   background-color: black;
   color: crimson;
 }
+/* Navigation Bar */
 
+
+/* Overall Rules */
 body {
   background-color: silver;
   color: black;
-  font-size: 14px;
+  font-size: 20px;
   font-family: 'Poppins', sans-serif, arial;
 }
+/* Overall Rules */
+
 
 #SectionHeaderName {
   font-weight: bolder;
 }
-/* Overall Rules */
 
 
 /* Home Page */
@@ -44,20 +50,42 @@ body {
 }
 
 #BannerImage {
-  padding-top: 12px;
+  margin: 10px;
   display:block;
+  border: 12px solid black;
   margin-left: auto;
   margin-right: auto;
 }
 
 #HomePageFooter {
+  font-size: 12px;
   text-align: center;
   font-style: italic;
+}
+
+#AsepriteLink {
+  box-sizing: border-box;
 }
 /* Home Page */
 
 
-
-#DummyText {
-  line-height: 2
+/* Images */
+.Content {
+  display: flex;
+  flex:auto;
+  flex-wrap: wrap;
+  border: 5px solid black;
+  background-color: Gainsboro;
+  justify-content: center;
+  text-align: center;
 }
+
+.ContentPadding {
+  padding: 15px;
+}
+
+.ContentText {
+  border: 5px solid black;
+  padding: 10px;
+}
+/* Images */
