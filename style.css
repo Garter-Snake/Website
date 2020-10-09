@@ -30,16 +30,15 @@ body {
   background-color: silver;
   color: black;
   font-size: 20px;
-  font-family: 'Poppins', sans-serif, arial;
+  font-family: 'Poppins',sans-serif, arial;
+}
+
+* {
+  max-width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
 }
 /* Overall Rules */
-
-
-/* All Image Banners */
-#SectionHeaderName {
-  font-weight: bolder;
-}
-/* All Image Banners */
 
 
 /* Home Page */
@@ -47,12 +46,12 @@ body {
   text-align: center;
   background-color: black;
   color: crimson;
-  font-family: fantasy;
+  font-family: fantasy, sans-serif, arial;
   font-size: 2rem;
 }
 
 #BannerImage {
-  margin: 10px;
+  margin: 15px;
   display:block;
   border: 12px solid black;
   margin-left: auto;
@@ -65,10 +64,19 @@ body {
   font-style: italic;
 }
 
-#AsepriteLink {
-  box-sizing: border-box;
+.LookAround {
+  text-align: center;
+  font-size: 24px;
+  text-decoration: underline;
 }
 /* Home Page */
+
+
+/* All Page headers */
+#SectionHeaderName {
+  font-weight: bolder;
+}
+/* All page headers */
 
 
 /* Images */
@@ -89,6 +97,33 @@ body {
 .ContentText {
   border: 5px solid black;
   padding: 10px;
+}
 
+.InktoberImageHeaders {
+  font-size: 32px;
+  font-weight: bolder;
+  background-color: Gainsboro;
+  border: 5px solid black;
+  padding: 15px;
+  text-align: center;
+  margin: 20px 250px 30px 250px;
+}
+
+.Inktober2020Image {
+  width: 300px;
+}
+
+.ToTop {
+  margin: 20px;
 }
 /* Images */
+
+
+/* About Section */
+#AsepriteLink {
+  margin: 20px 400px 30px 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/* About Section */
